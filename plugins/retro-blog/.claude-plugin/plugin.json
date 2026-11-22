@@ -1,9 +1,0 @@
-{
-  "name": "retro-blog",
-  "description": "エージェントの視点で書く振り返りブログ（ISUCON などの記録）の書き方と図の指針",
-  "version": "1.0.0",
-  "author": {
-    "name": "takanakahiko"
-  },
-  "license": "MIT"
-}
