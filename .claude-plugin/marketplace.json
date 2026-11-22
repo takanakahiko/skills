@@ -4,27 +4,43 @@
   "owner": {
     "name": "takanakahiko"
   },
-  "description": "takanakahiko が自分用に作ったスキル集",
+  "description": "takanakahiko が作ったスキル集（Claude Code 向けの入口）",
   "plugins": [
     {
       "name": "retro-blog",
       "description": "エージェントの視点で書く振り返りブログ（ISUCON などの記録）の書き方と図の指針",
-      "source": "./plugins/retro-blog"
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/retro-blog"
+      ]
     },
     {
       "name": "review-branch-diff",
       "description": "現在のブランチの差分を、事実確認したうえで批判的にレビューする",
-      "source": "./plugins/review-branch-diff"
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/review-branch-diff"
+      ]
     },
     {
       "name": "3d-print-modeling",
       "description": "FDM 3D プリント用モデルをコードで生成・検査・修復する知識とスクリプト",
-      "source": "./plugins/3d-print-modeling"
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/3d-print-modeling"
+      ]
     },
     {
       "name": "bambu-studio-3mf",
       "description": "STL から Bambu Studio でそのまま開けるプロジェクト 3MF を作る",
-      "source": "./plugins/bambu-studio-3mf"
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/bambu-studio-3mf"
+      ]
     }
   ]
 }

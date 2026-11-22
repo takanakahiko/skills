@@ -1,9 +1,0 @@
-{
-  "name": "bambu-studio-3mf",
-  "description": "STL から Bambu Studio でそのまま開けるプロジェクト 3MF を作る",
-  "version": "1.0.0",
-  "author": {
-    "name": "takanakahiko"
-  },
-  "license": "MIT"
-}
