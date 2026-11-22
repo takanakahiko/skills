@@ -1,0 +1,9 @@
+{
+  "name": "review-branch-diff",
+  "description": "現在のブランチの差分を、事実確認したうえで批判的にレビューする",
+  "version": "1.0.0",
+  "author": {
+    "name": "takanakahiko"
+  },
+  "license": "MIT"
+}

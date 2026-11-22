@@ -1,0 +1,9 @@
+{
+  "name": "3d-print-modeling",
+  "description": "FDM 3D プリント用モデルをコードで生成・検査・修復する知識とスクリプト",
+  "version": "1.0.0",
+  "author": {
+    "name": "takanakahiko"
+  },
+  "license": "MIT"
+}
