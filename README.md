@@ -18,26 +18,15 @@ npx skills add takanakahiko/skills                 # 選んで入れる
 npx skills add takanakahiko/skills -s retro-blog   # 1 つだけ入れる
 ```
 
-GitHub CLI:
+GitHub CLI（`--pin` でコミットやタグに固定できます）:
 
 ```
-gh skill install takanakahiko/skills retro-blog
-```
-
-Claude Code のプラグインとして入れる場合（`/plugin update` で更新を受け取れます）:
-
-```
-/plugin marketplace add takanakahiko/skills
-/plugin install retro-blog@takanakahiko
+gh skill install takanakahiko/skills retro-blog --agent claude-code --scope user
 ```
 
 ## スキルを追加するとき
 
-`skills/<名前>/SKILL.md` を置き、Claude Code 向けに `.claude-plugin/marketplace.json` へ 1 項目を足します。
-
-```json
-{ "name": "<名前>", "description": "…", "source": "./", "strict": false, "skills": ["./skills/<名前>"] }
-```
+`skills/<名前>/SKILL.md` を置くだけです。
 
 ## ライセンス
 
